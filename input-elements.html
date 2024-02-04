@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Elements</title>
+</head>
+<body>
+    <main>
+        <h1>Input Element Tutorial</h1>
+        <p>If you type ctrl-space after type "input type=" it will give you the available options"<br><br>
+            <label for="thename">textbox</label>
+            <input type="text" id="thename">
+        </p>
+        <p>
+            The fieldset element puts a box around the radio buttons and you need to group them with the name command or they
+            you can click multiple buttons.  the legend gives the group a name,  a radio button also needs to assign a value to the option based on 
+            users choice
+        </p>
+        <fieldset>
+            <legend>First or last name</legend>
+            <input type="radio" id="firstname" name="radio-group" value="first-name">
+            <label for="firstname">First Name</label>
+            <input type="radio" id="lastname" name="radio-group" value="last-name">
+            <label for="lastname">Last Name</label>
+
+        </fieldset>
+        <p>
+            <label for="thedate">Input Date: </label>
+            <input type="date" id="thedate">
+        </p>
+        <p>
+            <label for="youremail">Input your email: </label>
+            <input type="email" id="youremail">
+        </p>
+        <p>
+            <input type="checkbox" id="thecheckbox">
+            <label for="thecheckbox">Do you want to be added to our list? </label>
+        </p>
+        <p>
+            <button>
+                input here
+            </button>
+        </p>
+        <p>
+            <label for="long-input">Enter your thoughts below</label><br>
+            <textarea name="input" id="long-input" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <label for="ualr_class">Pick a Class</label><br>
+            <select id="ualr_class">
+                <option value="#">Chem 1300</option>
+                <option value="#">Chem 1402</option>
+                <option value="#">Chem 1403</option>
+            </select>
+        </p>
+    <form action="" method="get">
+        <p>
+            <label for="molecule">Enter Molecule Name</label>
+            <input type="text" id="molecule" name="molecule-name" required>
+        </p>
+        <p>
+            <button>Submit</button>
+        </p>
+
+    </form>
+
+
+    </main>
+
+    
+</body>
+</html>
